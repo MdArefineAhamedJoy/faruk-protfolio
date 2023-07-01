@@ -5,6 +5,7 @@ import SocialLink from '../Components/SocialLink';
 import About from '../Components/About';
 import Portfolio from '../Components/Portfolio';
 import Experience from '../Components/Experience';
+import Contact from '../Components/Contact';
 
 
 const MainContent = () => {
@@ -15,7 +16,7 @@ const MainContent = () => {
             <About></About>
             <Portfolio></Portfolio>
             <Experience></Experience>
-
+            <Contact></Contact>
             <SocialLink></SocialLink>
         </div>
     );
